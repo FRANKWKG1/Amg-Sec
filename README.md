@@ -1,7 +1,5 @@
 # Amg-Sec
-Un programa que escoge entre una lista de nombres a uno de manera aleatoria 
-
-Aquí está la traducción al español:
+Un programa que escoge entre una lista de nombres a uno de manera aleatoria:
 
 <page>
 readme Último commit Historia readme Metadatos y controles del archivo
