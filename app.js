@@ -25,7 +25,7 @@ function adicionarAmigo(){
 function finJuego(){
     let resultado = participantes[Math.floor(Math.random() * participantes.length)];
     let final = document.querySelector('.section-title');
-    final.innerHTML = (`O sorteado foi ${resultado}`);
+    final.innerHTML = (`El amigo escogido es ${resultado}`);
 
 }
        
