@@ -52,3 +52,18 @@ El código JavaScript tiene las siguientes funciones principales:
 
 4. `finJuego()`
    - Sortea aleatoriamente a un participante del array y muestra el resultado en la interfaz.
+
+
+### **Lógica del Sorteo**
+
+- El sorteo se realiza con la función:
+  ```javascript
+  let resultado = participantes[Math.floor(Math.random() * participantes.length)];
+  ```
+  Esto selecciona un índice aleatorio dentro del array `participantes`.
+
+- El resultado se muestra en la interfaz usando:
+  ```javascript
+  let final = document.querySelector('.section-title');
+  final.innerHTML = (`El sorteado fue ${resultado}`);
+  ```
