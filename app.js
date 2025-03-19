@@ -22,7 +22,7 @@ function adicionarAmigo(){
 
 }
 
-function fimDoJogo(){
+function finJuego(){
     let resultado = participantes[Math.floor(Math.random() * participantes.length)];
     let final = document.querySelector('.section-title');
     final.innerHTML = (`O sorteado foi ${resultado}`);
@@ -31,8 +31,8 @@ function fimDoJogo(){
        
     function sortearAmigo(){
      let resultado = participantes[Math.floor(Math.random() * participantes.length)];
-     let plural = nomes >= 1 ? 'nome foi registrado' : 'nomes foram registrados';
-     fimDoJogo()
+     let plural = nomes >= 1 ? 'Nombre registrado' : 'Nombres registrados';
+     finJuego()
         
 
 
