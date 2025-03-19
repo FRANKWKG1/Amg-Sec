@@ -1,7 +1,7 @@
 # Amg-Sec
 Un programa que escoge entre una lista de nombres a uno de manera aleatoria:
 
-# Desasio del Amigo Secreto Alura - Proyecto en JavaScript
+# Desafio del Amigo Secreto Alura - Proyecto en JavaScript
 
 ## **Descripción del Proyecto**
 Este proyecto es un sorteo de amigo secreto desarrollado en JavaScript. El objetivo principal es aplicar conceptos de lógica de programación, como el uso de variables, arrays, funciones y manipulación del DOM, para crear una aplicación interactiva donde los usuarios puedan:
